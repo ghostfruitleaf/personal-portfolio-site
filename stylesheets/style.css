@@ -1,0 +1,94 @@
+body{
+    background-color: #F4F4F8;
+    color: #2A2D34;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+header{
+    background-color: #b6b6b9;
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+}
+
+header aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header aside img{
+    width: 100px;
+    height: 100px;
+}
+
+footer{
+    font-size: small;
+    padding-left: 65px;
+}
+
+main{
+    padding-left: 65px;
+}
+
+a{
+    color: #2AB7CA;
+    text-decoration: none;
+}
+a:hover{
+    color: #FE4A49;
+}
+
+
+nav ul{
+    font-family: 'DM Serif Display', serif;
+    font-size: 54px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a{
+    display: block;
+    color: black;
+}
+
+nav a:hover{
+    color: rgba(42, 45, 52, 0.5);
+}
+
+nav a:active{
+    color: rgba(255, 255, 255, 1);
+}
+
+nav ul li{
+    width: 100%;
+}
+
+nav ul li a:before{
+    content: "☞ ";
+}
+
+nav [href="about.html"]{
+    background-color: #FE4A49;
+}
+
+
+nav [href="portfolio.html"]{
+    background-color: #2AB7CA;
+}
+
+
+nav [href="hobby-blog.html"]{
+    background-color: #FED766;
+}
+
+nav [href="index.html"]{
+    background-color: #2A2D34;
+    color: #F4F4F8;
+}
+
+nav [href="index.html"]:hover{
+    color:rgba(255, 255, 255, 0.7);
+}

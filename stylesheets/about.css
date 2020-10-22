@@ -1,0 +1,85 @@
+main{
+    padding: 0;
+    background-color: #2a2d34a6;
+}
+
+footer{
+    padding: 0;
+    background-color: #b6b6b9;
+    text-align: center;
+}
+
+.pfp mark{
+    font-size: larger;
+    background-color: #2ab7ca54;
+}
+
+h1, h2{
+    color: black;
+    font-size: 5vw;
+}
+h3{
+    color: rgba(0, 0, 0, 0.753);
+    font-size: 3vw;
+}
+h4{
+    color: rgba(0, 0, 0, 0.548);
+}
+.about > section{
+    font-size: 2.5vw;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.about{
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: max-content;
+}
+
+.pfp{
+    background-color: #F4F4F8;
+}
+
+.pfp img{
+    width: 100%;
+}
+.education{
+    background-color: #FE4A49;
+}
+.description{
+    background-color: #FED766;
+}
+
+.description p:after{
+    content: "\a\a♥";
+    white-space: pre;
+}
+
+.volunteering{
+    background-color: #2AB7CA;
+}
+.volunteering a{
+    color: #7e1717;
+}
+
+.volunteering li{
+    display: block;
+    line-height: 1.25em;
+}
+
+.volunteering a:hover{
+    color: #1766709c;
+}
+
+.volunteering a:visited{
+    color: #fed8669c;
+}
+
+.volunteering li:not(:first-child):before{
+    content: "&\a";
+    white-space: pre;
+    line-height: 1em;
+}

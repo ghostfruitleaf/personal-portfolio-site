@@ -83,3 +83,9 @@ h4{
     white-space: pre;
     line-height: 1em;
 }
+
+.volunteering li:last-child:after{
+    content: "\a\a";
+    white-space: pre;
+    line-height: 1em;
+}

@@ -2,3 +2,9 @@
 h3{
     font-size: x-large;
 }
+
+mark{
+    color:  #FE4A49;
+    text-decoration: underline #1766709c;
+    background-color: #F4F4F8;
+}

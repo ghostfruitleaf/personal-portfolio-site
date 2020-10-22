@@ -40,6 +40,9 @@ a:hover{
     color: #FE4A49;
 }
 
+a:visited{
+    color: #972b2b;
+}
 
 nav ul{
     font-family: 'DM Serif Display', serif;
@@ -55,11 +58,7 @@ nav a{
 }
 
 nav a:hover{
-    color: rgba(42, 45, 52, 0.5);
-}
-
-nav a:active{
-    color: rgba(255, 255, 255, 1);
+    color: rgba(42, 45, 52, 0.3);
 }
 
 nav ul li{
@@ -74,14 +73,31 @@ nav [href="about.html"]{
     background-color: #FE4A49;
 }
 
+nav [href="about.html"]:visited{
+    color: #ad0000;
+}
+
+nav [href="about.html"] mark{
+    color:  #7e1717;
+    text-decoration: underline #1766709c;
+    background-color:  #FE4A49;
+}
 
 nav [href="portfolio.html"]{
     background-color: #2AB7CA;
 }
 
+nav [href="portfolio.html"]:visited{
+    color: #064a53;
+}
+
 
 nav [href="hobby-blog.html"]{
     background-color: #FED766;
+}
+
+nav [href="hobby-blog.html"]:visited{
+    color: #946f00;
 }
 
 nav [href="index.html"]{
@@ -92,3 +108,8 @@ nav [href="index.html"]{
 nav [href="index.html"]:hover{
     color:rgba(255, 255, 255, 0.7);
 }
+
+nav [href="index.html"]:visited{
+    color:rgba(255, 255, 255, 0.5);
+}
+

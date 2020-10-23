@@ -1,0 +1,62 @@
+main, footer{
+    text-align: center;
+}
+
+footer{
+    padding: 0;
+}
+
+p{
+    font-size: 2vw;
+}
+#portfolio{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+}
+
+#portfolio > article{
+    width: 33vw;
+    height: auto;
+    margin-top: 0.33vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#portfolio article:nth-child(5n-4){
+    background-color: #FE4A49;
+}
+
+#portfolio article:not(:last-child):nth-child(2n){
+    background-color: #2AB7CA;
+}
+
+#portfolio article:not(:first-child):nth-child(2n+1){
+    background-color: #FED766;
+}
+
+article.icon{
+    background-image: url("../images/d20.png");
+}
+
+article.fair{
+    background-image: url("../images/funfair.png");
+}
+
+article.calculator{
+    background-image: url("../images/calc.png");
+}
+
+article.solarsystem{
+    background-image: url("../images/solar.png");
+}
+
+article.grocery{
+    background-image: url("../images/grocery.png");
+}
+
+article.nightowl{
+    background-image: url("../images/owl.png");
+}

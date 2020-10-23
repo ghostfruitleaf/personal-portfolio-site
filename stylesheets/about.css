@@ -14,6 +14,10 @@ footer{
     background-color: #2ab7ca54;
 }
 
+h1, h2, h3, h4, p{
+    margin: 10px;
+}
+
 h1, h2{
     color: black;
     font-size: 5vw;
@@ -53,7 +57,7 @@ h4{
     background-color: #FED766;
 }
 
-.description p:after{
+.description p:after, .education h4:after{
     content: "\a\a♥";
     white-space: pre;
 }

@@ -9,6 +9,10 @@ footer{
 p{
     font-size: 2vw;
 }
+
+h2, p{
+    margin: 10px;
+}
 #portfolio{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -20,43 +24,49 @@ p{
     width: 33vw;
     height: auto;
     margin-top: 0.33vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+}
+
+#portfolio img{
+    width: 100%;
+    height: auto;
 }
 
 #portfolio article:nth-child(5n-4){
     background-color: #FE4A49;
 }
 
+#portfolio article:nth-child(5n-4) a{
+    color:  #FED766;
+}
+
+#portfolio article:nth-child(5n-4) a:hover{
+    color:  #2AB7CA;
+}
+
+#portfolio article:nth-child(5n-4) a:visited{
+    color: #ad1f1f;
+}
+
 #portfolio article:not(:last-child):nth-child(2n){
     background-color: #2AB7CA;
+}
+
+#portfolio article:not(:last-child):nth-child(2n) a{
+    color: #bb2f2f;
+}
+
+#portfolio article:not(:last-child):nth-child(2n) a:visited{
+    color: #105e68;
+}
+
+#portfolio article:not(:last-child):nth-child(2n) a:hover{
+    color: #FED766;
 }
 
 #portfolio article:not(:first-child):nth-child(2n+1){
     background-color: #FED766;
 }
 
-article.icon{
-    background-image: url("../images/d20.png");
-}
-
-article.fair{
-    background-image: url("../images/funfair.png");
-}
-
-article.calculator{
-    background-image: url("../images/calc.png");
-}
-
-article.solarsystem{
-    background-image: url("../images/solar.png");
-}
-
-article.grocery{
-    background-image: url("../images/grocery.png");
-}
-
-article.nightowl{
-    background-image: url("../images/owl.png");
+#portfolio article:not(:first-child):nth-child(2n+1) a:visited{
+    color: #997406;
 }

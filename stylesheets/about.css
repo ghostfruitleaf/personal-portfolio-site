@@ -3,6 +3,10 @@ main{
     background-color: #2a2d34a6;
 }
 
+nav ul li:first-child a:after{
+    content: " ☜";
+}
+
 footer{
     padding: 0;
     background-color: #b6b6b9;

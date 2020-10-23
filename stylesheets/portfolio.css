@@ -2,6 +2,10 @@ main, footer{
     text-align: center;
 }
 
+nav ul li:nth-child(2) a:after{
+    content: " ☜";
+}
+
 footer{
     padding: 0;
 }
@@ -22,12 +26,15 @@ h2, p{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     justify-items: center;
+    margin-left: 0.66vw; 
+    margin-right: 0.66vw;
 }
 
 #portfolio > article{
-    width: 33vw;
+    width: 32vw;
     height: auto;
-    margin-top: 0.33vh;
+    margin-top: 1.33vh;
+    margin-bottom: 1.33vh;
 }
 
 #portfolio img{

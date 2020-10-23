@@ -2,6 +2,10 @@ main{
     padding: 65px;
 }
 
+nav ul li:last-child a:after{
+    content: " ☜";
+}
+
 h3{
     font-size: x-large;
 }

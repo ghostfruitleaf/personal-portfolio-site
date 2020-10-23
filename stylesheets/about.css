@@ -18,19 +18,19 @@ footer{
     background-color: #2ab7ca54;
 }
 
-h1, h2, h3, h4, p{
+h2, h3, h4, h5, p{
     margin: 10px;
 }
 
-h1, h2{
+h2, h3{
     color: black;
     font-size: 5vw;
 }
-h3{
+h4{
     color: rgba(0, 0, 0, 0.753);
     font-size: 3vw;
 }
-h4{
+h5{
     color: rgba(0, 0, 0, 0.548);
 }
 .about > section{
@@ -47,6 +47,13 @@ h4{
     grid-template-rows: max-content;
 }
 
+.about h1{
+    grid-column: -1/1;
+    text-align: center;
+    font-size: 7vw;
+    color: black;
+}
+
 .pfp{
     background-color: #F4F4F8;
 }
@@ -61,7 +68,7 @@ h4{
     background-color: #FED766;
 }
 
-.description p:after, .education h4:after{
+.description p:after, .education h5:after{
     content: "\a\a♥";
     white-space: pre;
 }

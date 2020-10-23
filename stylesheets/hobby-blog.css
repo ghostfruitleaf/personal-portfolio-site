@@ -1,3 +1,4 @@
+/* header, main, footer */
 nav ul li:nth-child(3) a:after{
     content: " ☜";
 }
@@ -12,6 +13,7 @@ footer{
     background-color: #FE4A49;
 }
 
+/* main sectioning elements */
 article{
     margin: auto;
 }
@@ -27,10 +29,12 @@ time{
     color: #b82121;
 }
 
+/* blog elements */
 .blog article{
     background-color: #F4F4F8;
 }
 
+/* blog-header */
 .blog-header{
     grid-column: 1/-1;
     background-color: #ffeaaa;
@@ -55,11 +59,13 @@ time{
     font-size: 3vw;
 }
 
+/* article elements */
 article[id^=blog] > *{
     padding-left: 65px;
     padding-right: 65px;
 }
 
+/* post-header*/
 .post-header{
     background-color: #2ab7ca7a;
     height: 100%;
@@ -79,6 +85,8 @@ article[id^=blog] > *{
     color: #FED766;
 }
 
+/* blog-content */
+
 .blog-content{
     padding-top: 1.5vw;
     padding-bottom: 1.5vw;
@@ -95,7 +103,11 @@ aside.blog{
     text-align: center;
 }
 
+a[href="#top"]{
+    background-color: #ffeaaa;
+}
 
+/* blog aside/nav bar */
 
 aside.blog h2, aside.blog li{
     padding: 5px;
@@ -113,6 +125,4 @@ aside.blog li{
     font-size: 3vw;
 }
 
-a[href="#top"]{
-    background-color: #ffeaaa;
-}
+

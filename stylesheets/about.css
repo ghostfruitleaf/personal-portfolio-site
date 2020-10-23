@@ -1,10 +1,13 @@
-main{
-    padding: 0;
-    background-color: #2a2d34a6;
-}
+/* header elements */
 
 nav ul li:first-child a:after{
     content: " ☜";
+}
+
+/* body sectioning elements */
+main{
+    padding: 0;
+    background-color: #2a2d34a6;
 }
 
 footer{
@@ -13,10 +16,7 @@ footer{
     text-align: center;
 }
 
-.pfp mark{
-    font-size: larger;
-    background-color: #2ab7ca54;
-}
+/* headers */
 
 h2, h3, h4, h5, p{
     margin: 10px;
@@ -33,6 +33,15 @@ h4{
 h5{
     color: rgba(0, 0, 0, 0.548);
 }
+
+/* about wrapper section */
+.about{
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: max-content;
+}
+
 .about > section{
     font-size: 2.5vw;
     margin: auto;
@@ -40,12 +49,7 @@ h5{
     width: 100%;
     text-align: center;
 }
-.about{
-    padding: 0px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: max-content;
-}
+
 
 .about h1{
     grid-column: -1/1;
@@ -54,16 +58,27 @@ h5{
     color: black;
 }
 
+/* .pfp */
+
 .pfp{
     background-color: #F4F4F8;
+}
+
+.pfp mark{
+    font-size: larger;
+    background-color: #2ab7ca54;
 }
 
 .pfp img{
     width: 100%;
 }
+
+/* education */
 .education{
     background-color: #FE4A49;
 }
+
+/* description */
 .description{
     background-color: #FED766;
 }
@@ -73,6 +88,7 @@ h5{
     white-space: pre;
 }
 
+/* .volunteering */
 .volunteering{
     background-color: #2AB7CA;
 }
